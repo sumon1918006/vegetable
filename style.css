@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  .firstblock{
+      background-color: green;
+  }
+  .nav1 {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  .bar5{
+      margin: 20px 10px;
+  }
+  .fst1 {
+    display: flex;
+  }
+  .bar {
+    margin: 20px 10px;
+  }
+  
+  .send1 {
+    display: flex;
+  }
+  /* ==============2nd========== */
+  .fst2 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .appel {
+    display: flex;
+    /* margin: 10px 30px; */
+  }
+  .appel div{
+      margin: 10px 10px;
+  }
+  .appel h1{
+      margin-top: 15px;
+      color: white;
+      font-size: 30px;
+  }
+  .doller{
+      margin: 30px 40px;
+      border: 1px solid blanchedalmond;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: white;
+  }
+  .searchbox{
+      margin: 30px 40px;
+      border: 1px solid black;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: white;
+  }
+  .searchbox input{
+      border: none;
+  }
+  /* ==============3RD========== */
+  .contlist ul {
+    display: flex;
+    list-style: none;
+    width: 60%;
+    margin: 50px auto;
+    justify-content: space-around;
+    padding-top: 30px;
+    color: white;
+  }
+  .contlist li:hover{
+      color: black;
+      cursor: pointer;
+  }
+  .nav2 {
+    border-radius: 5px;
+    background-color: rgb(215, 176, 58);
+    /* width: 90%; */
+    margin: 20px;
+    margin-left: 70px;
+    height: 10vh;
+  }
+  /* ============4th========= */
+  .support ul {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+  .support li:hover{
+    color: hotpink;
+    cursor: pointer;
+  }
+  .support {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  /* =======5th======= */
+  .picture {
+      width: 100%;
+      margin-left:68px;
+      height: 80vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+    background-image: url(./pic_veg.jpg);
+  }
+  /* ============6th=========== */
+  .textpic{
+      color: white;
+      padding: 250px 20px;
+  }
+  #line{
+      margin: 0px 10px;
+      border: 1px solid white;
+      width: 500px;
+  }
+  .fresh1{
+      letter-spacing: 2px;
+      margin: 10px;
+      font-size: small;
+  }
+  .textpic h1{
+      margin: 10px;
+      font-size: 50px;
+      
+  }
+  .fresh2{
+      margin: 10px;
+  }
+  #btn{
+      color: white;
+      padding: 15px 8px;
+      background-color: green;
+      border-radius: 10px;
+      margin: 0px 10px;
+      width: 15%;
+  }
+  #btn:hover{
+    background-color: white;
+    color: brown;
+    font-size: bold;
+  }
+/* ===============7th===========   */
+.full{
+    display: flex;
+    width: 80%;
+    margin: 20px 40px;
+}
+.vegetable{
+    margin: 70px 20px;
+}
+.item img{
+    border-radius: 20px;
+    margin: 20px 20px;
+}
+.item h3{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.vegetable h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* ===============last============== */
+.about-us{
+    height: 30vh;
+}
+.about-us h1{
+    text-align: center;
+    font-weight: 800;
+    margin-top: 80px;
+    margin-bottom: 10px;
+
+}
+.about-us p{
+    text-align: center;
+    font-weight: 400;
+}
+.about-us span{
+    padding-left: 47%;
+}
+.about-us span i{
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+}
